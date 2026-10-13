@@ -1,0 +1,8 @@
+{
+  "name": "OpenDrillData - Directional Drilling Open Source Catalog & Trajectory Lab",
+  "description": "Comprehensive guide, live benchmark repository, Minimum Curvature calculation engine, and 3D trajectory visualizer for open-source directional drilling data.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

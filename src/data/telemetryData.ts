@@ -1,0 +1,30 @@
+import { TelemetryPoint } from '../types/drilling';
+
+export const VOLVE_TELEMETRY_SAMPLE: TelemetryPoint[] = [
+  { md: 1200, rop: 18.5, wob: 12.0, torque: 8.5, rpm: 120, flowRate: 2800, spp: 185, mode: 'Rotating', inc: 1.0 },
+  { md: 1250, rop: 16.2, wob: 14.5, torque: 9.1, rpm: 120, flowRate: 2850, spp: 190, mode: 'Rotating', inc: 1.8 },
+  { md: 1300, rop: 8.4,  wob: 18.2, torque: 14.2, rpm: 0,   flowRate: 3100, spp: 245, mode: 'Sliding (Motor)', inc: 3.5 },
+  { md: 1350, rop: 7.9,  wob: 19.5, torque: 15.1, rpm: 0,   flowRate: 3100, spp: 250, mode: 'Sliding (Motor)', inc: 5.2 },
+  { md: 1400, rop: 19.8, wob: 13.0, torque: 10.2, rpm: 110, flowRate: 2950, spp: 205, mode: 'Rotating', inc: 7.4 },
+  { md: 1450, rop: 9.1,  wob: 20.1, torque: 16.0, rpm: 0,   flowRate: 3100, spp: 255, mode: 'Sliding (Motor)', inc: 9.3 },
+  { md: 1500, rop: 8.8,  wob: 21.0, torque: 16.4, rpm: 0,   flowRate: 3100, spp: 260, mode: 'Sliding (Motor)', inc: 11.4 },
+  { md: 1550, rop: 21.5, wob: 14.2, torque: 11.0, rpm: 115, flowRate: 3000, spp: 210, mode: 'Rotating', inc: 13.5 },
+  { md: 1600, rop: 9.3,  wob: 22.0, torque: 16.8, rpm: 0,   flowRate: 3100, spp: 262, mode: 'Sliding (Motor)', inc: 15.6 },
+  { md: 1650, rop: 22.1, wob: 15.0, torque: 11.5, rpm: 120, flowRate: 3000, spp: 212, mode: 'Rotating', inc: 17.6 },
+  { md: 1700, rop: 10.2, wob: 21.8, torque: 17.2, rpm: 0,   flowRate: 3100, spp: 265, mode: 'Sliding (Motor)', inc: 19.8 },
+  { md: 1750, rop: 23.4, wob: 15.5, torque: 12.0, rpm: 120, flowRate: 3000, spp: 215, mode: 'Rotating', inc: 21.9 },
+  { md: 1800, rop: 24.0, wob: 16.0, torque: 12.4, rpm: 125, flowRate: 3000, spp: 218, mode: 'Rotating', inc: 23.5 },
+  { md: 1850, rop: 11.1, wob: 22.5, torque: 17.5, rpm: 0,   flowRate: 3150, spp: 270, mode: 'Sliding (Motor)', inc: 25.4 },
+  { md: 1900, rop: 24.8, wob: 16.5, torque: 12.8, rpm: 125, flowRate: 3000, spp: 220, mode: 'Rotating', inc: 27.1 },
+  { md: 1950, rop: 25.5, wob: 16.8, torque: 13.0, rpm: 125, flowRate: 3000, spp: 222, mode: 'Rotating', inc: 28.2 },
+  { md: 2100, rop: 26.2, wob: 17.0, torque: 13.2, rpm: 130, flowRate: 3000, spp: 225, mode: 'Rotating', inc: 28.5 },
+  { md: 2250, rop: 27.0, wob: 17.2, torque: 13.5, rpm: 130, flowRate: 3000, spp: 225, mode: 'Rotating', inc: 28.4 },
+  { md: 2400, rop: 26.8, wob: 17.0, torque: 13.6, rpm: 130, flowRate: 3000, spp: 228, mode: 'Rotating', inc: 28.5 },
+  { md: 2550, rop: 25.9, wob: 17.5, torque: 13.8, rpm: 130, flowRate: 3000, spp: 230, mode: 'Rotating', inc: 28.0 },
+  { md: 2700, rop: 12.0, wob: 23.0, torque: 18.0, rpm: 0,   flowRate: 3150, spp: 275, mode: 'Sliding (Motor)', inc: 25.8 },
+  { md: 2850, rop: 12.5, wob: 22.8, torque: 17.9, rpm: 0,   flowRate: 3150, spp: 272, mode: 'Sliding (Motor)', inc: 21.4 },
+  { md: 3000, rop: 13.1, wob: 22.0, torque: 17.5, rpm: 0,   flowRate: 3150, spp: 270, mode: 'Sliding (Motor)', inc: 16.2 },
+  { md: 3150, rop: 28.5, wob: 18.0, torque: 14.5, rpm: 135, flowRate: 3050, spp: 235, mode: 'Rotating', inc: 12.0 },
+  { md: 3300, rop: 29.2, wob: 18.5, torque: 14.8, rpm: 135, flowRate: 3050, spp: 238, mode: 'Rotating', inc: 10.8 },
+  { md: 3450, rop: 30.0, wob: 18.8, torque: 15.0, rpm: 140, flowRate: 3050, spp: 240, mode: 'Rotating', inc: 10.5 }
+];
